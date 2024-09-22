@@ -1,0 +1,26 @@
+### Post "Hello!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Hello!"
+}
+
+### Post "Ciao!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Ciao!"
+}
+
+### Post "Hola!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Hola!"
+}
+
+### Get messages
+GET http://localhost:8080/
